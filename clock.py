@@ -18,7 +18,7 @@ def time():
     label.config(text = string)
     label.after(1000,time)
 
-cols = ['white', 'green', 'purple', 'blue', 'yellow', 'red', 'orange', 'cyan' , 'pink','light green']
+cols = ['white', 'green', 'magenta', 'blue', 'yellow', 'red', 'orange', 'cyan' , 'pink','light green']
 rand_color = random.choice(cols)
 label = Label(root, font=("ds-digital", 40), background = "black", foreground = rand_color)
 label.pack(anchor='center')
